@@ -1,0 +1,17 @@
+module.exports = {
+  user: "user",
+  product_type: "product_type",
+  address: "address",
+  brand: "brand",
+  product: "product",
+  category: "category",
+  product_category: "product_category",
+  tag: "tag",
+  product_tag: "product_tag",
+  cart_items: "cart_items",
+  order_items: "order_items",
+  favourites: "favourites",
+  verify_code: "verify_code",
+  order: "order",
+  cart: "cart",
+};

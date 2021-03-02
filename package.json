@@ -1,0 +1,41 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " nodemon run index.js",
+    "migrate": "npx knex migrate:latest "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.834.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-redis": "5.1.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "node-cron": "2.0.3",
+    "dot-env": "^0.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validation": "^3.0.5",
+    "faker": "^5.1.0",
+    "helmet": "^4.1.0",
+    "ioredis": "4.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "objection": "^2.2.2",
+    "pg": "^8.3.0",
+    "querystring": "^0.2.0",
+    "rate-limiter-flexible": "^2.1.10",
+    "request": "^2.88.2",
+    "twilio": "^3.49.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {}
+}
